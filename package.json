@@ -1,0 +1,56 @@
+{
+  "name": "nodejs-api-renew-jwt",
+  "version": "1.0.0",
+  "description": "NodeJS Express API for MySQL to manage users and user sessions (renew token / refresh token)",
+  "main": "index.js",
+  "scripts": {
+    "api:run": "nodemon index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aubincc/nodejs-api-renew-jwt.git"
+  },
+  "keywords": [
+    "API",
+    "Express",
+    "MySQL",
+    "MariaDB",
+    "registration",
+    "authentication",
+    "user",
+    "login",
+    "renew",
+    "refresh",
+    "token",
+    "jwt",
+    "OpenAPI",
+    "Swagger",
+    "Cypress",
+    "@bahmutov/cy-api"
+  ],
+  "author": "Nicolas AUBIN <dev@aubin.cc>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aubincc/nodejs-api-renew-jwt/issues"
+  },
+  "homepage": "https://github.com/aubincc/nodejs-api-renew-jwt#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.1.2",
+    "node-cron": "^3.0.2",
+    "sequelize": "^6.29.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.2",
+    "uuid": "^9.0.0"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
