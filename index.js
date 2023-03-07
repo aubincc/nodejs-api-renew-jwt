@@ -1,4 +1,4 @@
-global.ver = "0.1.0";
+global.ver = "1.0.0";
 
 import express from "express";
 import rateLimit from "express-rate-limit";
